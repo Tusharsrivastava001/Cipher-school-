@@ -1,0 +1,18 @@
+        <ul id="pp">
+            <li>this is the l1 </li>
+             <li>this is the l1 </li>
+              <li>this is the l1 </li>
+               <li>this is the l1 </li>
+        </ul>
+        <button onclick="additem()">Add items</button>
+
+        
+        <script>
+            function additem(){
+                const li=document.createElement("li");
+                li.textContent="ye naya hai";
+                document.getElementbyId("pp").append(li);
+            }
+            // console.log("Hello broo");
+            // alert("Hello bro how are you");
+        </script>
