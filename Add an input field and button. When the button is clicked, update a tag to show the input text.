@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h2>Here we have to type something amazing</h2>
+        
+        <input type="text" id="userid" placeholder="Enter the name">
+        <button onclick="update()">Click me </button>
+
+            <br> <br>
+        <p id="outp">your thing will disply here</p>
+    </div>
+
+    <script>
+        function update(){
+            const input=document.getElementById("userid").value;
+            document.getElementById("outp").textContent=input;
+        }
+    </script>
+</body>
+</html>
