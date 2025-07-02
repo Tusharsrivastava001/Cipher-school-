@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h2 id="mm">Here we have to type something amazing</h2>
+        
+        <button onclick="update()">Click me </button>
+
+    </div>
+
+    <script>
+        function update(){
+            document.getElementById("mm").textContent="Hello bro";
+            //yaha par get element by id se select karo aur usko update kar do
+        }
+    </script>
+</body>
+</html>
